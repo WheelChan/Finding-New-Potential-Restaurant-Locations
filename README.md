@@ -7,3 +7,9 @@ Goal of project is to filter and analyze data to find potential locations for ne
 1. Need to install folium, sklearn and seaborn packages
 2. Obtain OSM data and use the cleaning_data.ipynb code to clean data into a file named output.csv (original OSM data used from amenities-vancouver.json)
 3. finding-attractive-locactions.ipynb finds locations based off a generated set of points along a diagonal line while finding-attractive-locactions-with_grid_search.ipynb generates points in a grid-like manner
+
+
+# POTENTIAL ISSUES:
+
+1. The function for determining attractiveness scores only uses the 10 closest attractions and 10 closest potential competitors as a basis for its scoring.
+      - issue then is that the 20 closest amenities to a potential locations ccould all be competitors but the attractiveness score does not reflect this reality
