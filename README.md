@@ -1,0 +1,2 @@
+# Finding-New-Potential-Restaurant-Locations
+Goal of project is to filter and analyze data to find potential locations for new restaurants in Downtown Vancouver. Initial data will be a cleaned dataset of pictures with geographic tags and descriptions. A function for determining the attractiveness for a potential location based on the relative distance between location and other competitors/attractions will be created. Interactive maps will also be used to better visualize the results.
