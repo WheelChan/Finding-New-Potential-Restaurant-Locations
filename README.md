@@ -5,4 +5,5 @@ Goal of project is to filter and analyze data to find potential locations for ne
 # HOW TO USE CODE:
 
 1. Need to install folium, sklearn and seaborn packages
-2. Obtain OSM data and use the cleaning_data.ipynb code to clean data into a file named output.csv (original OSM data from amenities-vancouver.json)
+2. Obtain OSM data and use the cleaning_data.ipynb code to clean data into a file named output.csv (original OSM data used from amenities-vancouver.json)
+3. finding-attractive-locactions.ipynb finds locations based off a generated set of points along a diagonal line while finding-attractive-locactions-with_grid_search.ipynb generates points in a grid-like manner
